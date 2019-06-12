@@ -1,0 +1,207 @@
+body {
+    background: url(/images/fond_jaune.png);
+    width: 900px;
+    margin: auto;
+}
+
+.encabezado {
+    display: inline-block;
+    background: url(/images/separateur.png) repeat-x bottom;
+}
+
+.logo1,
+.encabezado h1 {
+    display: inline-block;
+    margin-bottom: -1px;
+}
+
+.encabezado #navegador {
+    margin-top: 0px;
+}
+
+.encabezado h1 {
+    font-family: cursive;
+    width: 80%;
+}
+
+.encabezado h2 {
+    font-weight: normal;
+}
+
+.encabezado h2,
+.navegador {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.encabezado .navegador {
+    float: right;
+    margin-bottom: -1px;
+}
+
+.navegador li {
+    display: block;
+    float: right;
+    padding-right: 30px;
+    font-size: 1.5em;
+}
+
+.navegador li a {
+    text-decoration: none;
+    color: black;
+}
+
+.encabezado .imagen img {
+    width: 900px;
+    height: 5px;
+}
+
+
+/*Imagen despues de encabezado*/
+
+.imagenenca {
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(/images/sanfrancisco.jpg) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+.imgdes {
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    width: 99.5%;
+    top: 152px;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.8);
+    color: white;
+    font-size: 0.8em;
+}
+
+.imagenenca .imgdes h3 {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.boton {
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    background-color: #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Articulo con contenido de texto*/
+
+.texto {
+    float: left;
+    width: 640px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.texto img {
+    float: left;
+    margin-top: 5px;
+}
+
+.texto h1 {
+    margin-left: 70px;
+    font-weight: normal;
+}
+
+.texto .imgcostado img {
+    float: right;
+    margin-top: 50px;
+}
+
+
+/*aside del costado*/
+
+.costado {
+    float: right;
+    width: 250px;
+    height: 520px;
+    background: #706b64;
+    text-align: center;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.costado h3 {
+    text-align: center;
+}
+
+
+/*footer*/
+
+.piepagina {
+    display: block;
+    float: left;
+    width: 900px;
+    background: url(/images/separateur.png) repeat-x top;
+}
+
+.piepagina .pieimg {
+    text-align: center;
+}
+
+.piepagina h3 {
+    font-weight: normal;
+}
+
+.divicion1,
+.divicion2,
+.divicion3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.divicion1 {
+    width: 25%;
+}
+
+.divicion2 {
+    width: 32.5%;
+}
+
+.divicion3 {
+    width: 33%;
+}
+
+.piepagina .divicion3 ul {
+    list-style: none;
+    vertical-align: top;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.piepagina .divicion3 li a {
+    text-decoration: none;
+}
+
+.parte1 {
+    float: left;
+    padding-left: .1em;
+}
+
+.parte2 {
+    float: left;
+    padding-left: 3em;
+}
